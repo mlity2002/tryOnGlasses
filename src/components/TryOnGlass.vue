@@ -124,6 +124,7 @@ export default {
           normalizedY + yOffset,
           -3
       );
+      // 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
 
       // تنظیم مقیاس
       const scaleFactor = eyeDistance / 80; // تنظیم دقیق‌تر
