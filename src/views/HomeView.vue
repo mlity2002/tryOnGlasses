@@ -1,18 +1,24 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<!--  <ARScene model-url="models/glasses.glb" />-->
+<!--  <face-api />-->
+<!--  <TryOnGlasses />-->
+  <TryOnGlass />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import ARScene from "@/components/ARScene.vue";
+import FaceApi from "@/components/faceApi.vue";
+import TryOnGlasses from "@/components/TryOnGlasses.vue";
+import TryOnGlass from "@/components/TryOnGlass.vue";
 
 export default {
-  name: 'HomeView',
   components: {
-    HelloWorld
-  }
-}
+    TryOnGlass,
+    TryOnGlasses,
+    FaceApi,
+    ARScene,
+  },
+};
 </script>
+
+<style></style>
